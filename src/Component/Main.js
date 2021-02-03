@@ -58,9 +58,9 @@ export class Main extends React.Component {
             <Row className="justify-content-center">
               <h1 className="title">Random Quote</h1>
             </Row>
-            <Row className="wrapper">
-              <Col>
-                <blockquote id="quote-box">
+            <div className="wrapper" id="quote-box">
+              <Row>
+                <blockquote>
                   <p id="text" style={{ color: this.state.color }}>
                     {this.state.text} {"  "}
                     <FontAwesomeIcon
@@ -73,35 +73,35 @@ export class Main extends React.Component {
                     -- {this.state.author}
                   </p>
                 </blockquote>
-                <div className="d-flex">
-                  <a
-                    id="tweet-quote"
-                    href="twitter.com/intent/tweet"
-                    target="_black"
-                  >
-                    <Button
-                      className="fa fa-twitter-square"
-                      style={{ backgroundColor: this.state.color }}
+              </Row>
+              <Row>
+                <Col>
+                  <Button style={{ backgroundColor: this.state.color }}>
+                    <a
+                      id="tweet-quote"
+                      href="twitter.com/intent/tweet"
+                      target="_black"
                     >
-                      <FontAwesomeIcon icon={faTwitter} />
-                    </Button>
-                  </a>
+                      <FontAwesomeIcon icon={faTwitter} color="white" />
+                    </a>
+                  </Button>
+                </Col>
+                <Col className="text-right">
                   <Button
                     id="new-quote"
                     style={{
                       backgroundColor: this.state.color,
                     }}
-                    className="ml-auto"
                     onClick={() => {
                       this.randomQuoteAndColor();
                     }}
                   >
-                    New quote
+                    <div className="text-center">New Quote</div>
                   </Button>
-                </div>
-              </Col>
-            </Row>
-            <Row className='justify-content-center'>
+                </Col>
+              </Row>
+            </div>
+            <Row className="justify-content-center">
               <div className="by">By Bruno Umbelino</div>
             </Row>
           </Container>
