@@ -1,15 +1,14 @@
 .main {
   width: 100%;
   min-height: 100vh;
+  font-size: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 24px;
-  
 }
 
 .wrapper {
-  margin: 1rem;
+  margin: 0 1rem;
   max-width: 600px;
   background-color: white;
   border-radius: 10px;
@@ -17,16 +16,20 @@
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
 
+.container {
+  min-height: auto;
+}
+
 .title {
   text-align: center;
   color: white;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .by {
   text-align: center;
   color: white;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 #text {
@@ -41,9 +44,4 @@
 .btn {
   margin: 0px 2px;
   padding: 0.2em 1em;
-}
-
-.by {
-  position: absolute;
-  text-align: center;
 }

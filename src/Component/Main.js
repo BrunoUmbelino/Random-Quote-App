@@ -55,8 +55,8 @@ export class Main extends React.Component {
       <div className="main" style={{ backgroundColor: this.state.color }}>
         <div>
           <Container>
-            <Row className='justify-content-center'>
-              <h1 className='title'>Random Quote</h1>
+            <Row className="justify-content-center">
+              <h1 className="title">Random Quote</h1>
             </Row>
             <Row className="wrapper">
               <Col>
