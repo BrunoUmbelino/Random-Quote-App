@@ -4,7 +4,7 @@ Link: https://brunoumbelino.github.io/Random-Quote-App/
 
 ### Description
 
-**Random Quote** is an application that generates a new inspirational quote with each click. The project was developed as a solution to the **‘Random Quote Machine’** challenge proposed by the [FreeCodeCamp community](freecodecamp.org/) in Front End Development Libraries certification, in the upper left part of the screen it is possible to use the test suite proposed by challenge.
+**Random Quote** is an application that generates a new inspirational quote with each click. The project was developed as a solution to the **‘Random Quote Machine’** challenge proposed by the [FreeCodeCamp](freecodecamp.org/) community in Front End Development Libraries certification, in the upper left part of the screen it is possible to use the test suite proposed by challenge.
 
 ### Technologies
 
