@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Random-Quote-App/static/css/main.c558a8be.chunk.css",
-    "main.js": "/Random-Quote-App/static/js/main.28403171.chunk.js",
-    "main.js.map": "/Random-Quote-App/static/js/main.28403171.chunk.js.map",
+    "main.css": "/Random-Quote-App/static/css/main.4bcd17fd.chunk.css",
+    "main.js": "/Random-Quote-App/static/js/main.ee19e6db.chunk.js",
+    "main.js.map": "/Random-Quote-App/static/js/main.ee19e6db.chunk.js.map",
     "runtime-main.js": "/Random-Quote-App/static/js/runtime-main.e00ef044.js",
     "runtime-main.js.map": "/Random-Quote-App/static/js/runtime-main.e00ef044.js.map",
     "static/css/2.ae9f1eb3.chunk.css": "/Random-Quote-App/static/css/2.ae9f1eb3.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.4a0b06e0.chunk.js.map": "/Random-Quote-App/static/js/2.4a0b06e0.chunk.js.map",
     "index.html": "/Random-Quote-App/index.html",
     "static/css/2.ae9f1eb3.chunk.css.map": "/Random-Quote-App/static/css/2.ae9f1eb3.chunk.css.map",
-    "static/css/main.c558a8be.chunk.css.map": "/Random-Quote-App/static/css/main.c558a8be.chunk.css.map",
+    "static/css/main.4bcd17fd.chunk.css.map": "/Random-Quote-App/static/css/main.4bcd17fd.chunk.css.map",
     "static/js/2.4a0b06e0.chunk.js.LICENSE.txt": "/Random-Quote-App/static/js/2.4a0b06e0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e00ef044.js",
     "static/css/2.ae9f1eb3.chunk.css",
     "static/js/2.4a0b06e0.chunk.js",
-    "static/css/main.c558a8be.chunk.css",
-    "static/js/main.28403171.chunk.js"
+    "static/css/main.4bcd17fd.chunk.css",
+    "static/js/main.ee19e6db.chunk.js"
   ]
 }
