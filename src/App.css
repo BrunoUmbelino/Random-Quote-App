@@ -1,21 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 .main {
   width: 100%;
   min-height: 100vh;
-  font-size: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .wrapper {
-  max-width: 600px;
+  width: 700px;
   background-color: white;
   border-radius: 10px;
-  padding: 2rem;
+  padding: 4rem;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+@media (max-width: 800px) {
+  .wrapper {
+    width: 100%;
+    padding: 2rem;
+  }
 }
 
 .container {
@@ -26,28 +32,67 @@
   text-align: center;
   color: white;
   padding: 2rem;
+  font-size: 1.8rem;
+}
+
+@media (max-width: 800px) {
+  .title {
+    font-size: 1.4rem;
+  }
 }
 
 #text {
   text-align: start;
+  font-size: 2rem;
+}
+
+@media (max-width: 800px) {
+  #text {
+    font-size: 1.6rem;
+  }
+}
+
+#author {
   font-size: 1.4rem;
+  text-align: end;
+}
+
+@media (max-width: 800px) {
+  #author {
+    font-size: 1.2rem;
+  }
+}
+
+.btn {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  font-size: 1.2rem;
+  white-space: nowrap;
+}
+
+@media (max-width: 800px) {
+  .btn {
+    font-size: 1rem;
+  }
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+#new-quote {
+  text-align: end;
 }
 
 .by {
   text-align: center;
   color: white;
   padding: 2rem;
+  font-size: 1.2rem;
 }
 
-#author {
-  text-align: end;
-}
-
-.btn {
-  height: 100%;
-  padding: 2px 15px;
-}
-
-#new-quote {
-  text-align: end;
+@media (max-width: 800px) {
+  .by {
+    font-size: 1rem;
+  }
 }

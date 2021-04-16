@@ -74,7 +74,7 @@ export class Main extends React.Component {
                   </p>
                 </blockquote>
               </Row>
-              <Row>
+              <Row className="d-flex justify-content-center align-items-center">
                 <Col>
                   <Button style={{ backgroundColor: this.state.color }}>
                     <a
